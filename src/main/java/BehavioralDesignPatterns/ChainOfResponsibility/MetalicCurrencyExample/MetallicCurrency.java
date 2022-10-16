@@ -12,8 +12,7 @@ public abstract class MetallicCurrency {
     /**
      * Otomata atılan paraların tutulduğu liste
      */
-    private ArrayList<MetallicCurrency> metalParaListesi =
-            new ArrayList<>();
+    private ArrayList<MetallicCurrency> metalParaListesi = new ArrayList<>();
     /**
      * Metal paranın sahip olduğu değer. 5, 10, 50,
      * 100 Kurus olabilir
@@ -26,7 +25,6 @@ public abstract class MetallicCurrency {
     public MetallicCurrency getNext() {
         return nextReference;
     }
-
 
     public MetallicCurrency setNext(MetallicCurrency next) {
         this.nextReference = next;

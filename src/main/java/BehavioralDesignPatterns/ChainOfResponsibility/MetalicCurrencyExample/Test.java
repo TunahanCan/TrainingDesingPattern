@@ -17,6 +17,9 @@ public class Test {
         paraAt(new OnKurus());
         paraAt(new BesKurus());
         paraAt(new BesKurus());
+        paraAt(new BirLira());
+        paraAt(new BirLira());
+        paraAt(new BirLira());
 
 
         System.out.println("------------------------------");
