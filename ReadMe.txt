@@ -1,18 +1,18 @@
-Camel Java Router Project
+Training for design patter project
 =========================
 
-=== How to build
+=== Behavioral Design pattern
 
 To build this project use
 
     mvn install
 
-=== How to run
+=== Creational Design pattern
 
 You can run this example using
 
     mvn camel:run
 
-=== More information
+=== Structural Design pattern
 
 You can find more information about Apache Camel at the website: http://camel.apache.org/

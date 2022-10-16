@@ -14,6 +14,7 @@ public class TestDemo {
         server.register("admin@example.com", "admin_pass");
         server.register("user@example.com", "user_pass");
         server.register("admin@admin.com","1234");
+
         // All checks are linked. Client can build various chains using the same
         // components.
         Middleware middleware = Middleware.link(
