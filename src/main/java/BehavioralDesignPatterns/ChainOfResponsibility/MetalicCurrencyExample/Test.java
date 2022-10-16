@@ -23,7 +23,7 @@ public class Test {
 
 
         System.out.println("------------------------------");
-        zincir.getMetalParaListesi().stream().forEach(itr -> System.out.println(itr.getValue()));
+        zincir.getMetalParaList().stream().forEach(itr -> System.out.println(itr));
     }
 
     public static void paraAt(MetallicCurrency para) {

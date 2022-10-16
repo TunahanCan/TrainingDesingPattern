@@ -12,7 +12,8 @@ public abstract class MetallicCurrency {
     /**
      * Otomata atılan paraların tutulduğu liste
      */
-    private ArrayList<MetallicCurrency> metalParaListesi = new ArrayList<>();
+    private ArrayList<MetallicCurrency> metalParaList = new ArrayList<>();
+
     /**
      * Metal paranın sahip olduğu değer. 5, 10, 50,
      * 100 Kurus olabilir
@@ -45,9 +46,8 @@ public abstract class MetallicCurrency {
                         + "bu otomat için uygun değil.");
             }
         } else {
-            metalParaListesi.add(para);
+            metalParaList.add(para);
             System.out.println("Otomat tarafından " + this.toString() + " kabul edildi");
         }
     }
-
 }

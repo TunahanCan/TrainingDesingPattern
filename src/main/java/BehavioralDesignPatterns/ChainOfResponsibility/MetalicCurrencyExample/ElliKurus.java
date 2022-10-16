@@ -11,5 +11,4 @@ public class ElliKurus extends MetallicCurrency{
         return "ElliKurus{}";
     }
 
-
 }
