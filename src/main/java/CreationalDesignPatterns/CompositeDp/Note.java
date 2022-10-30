@@ -12,6 +12,9 @@ public class Note {
      */
 
     /**
-     *
+     * Bileşik tasarım şablonu ne zaman kullanılır?
+     * Bir nesnenin bütünü ve parçaları arasındaki ilişkiyi modellemek için.
+     * Eğer kullanıcı sınıf için nesnenin parçaları ve kendisi üzerinde yapılan işlemlerin transparen
+     * olması isteniyorsa.
      */
 }
