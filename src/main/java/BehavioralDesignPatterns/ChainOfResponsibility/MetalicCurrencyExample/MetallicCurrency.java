@@ -22,7 +22,6 @@ public abstract class MetallicCurrency {
 
     private MetallicCurrency nextReference;
 
-
     public MetallicCurrency getNext() {
         return nextReference;
     }
@@ -31,7 +30,6 @@ public abstract class MetallicCurrency {
         this.nextReference = next;
         return this;
     }
-
 
     public void check(MetallicCurrency para) {
         System.out.println("Sıradaki nesne sadece " + this + " işleyebilir.");

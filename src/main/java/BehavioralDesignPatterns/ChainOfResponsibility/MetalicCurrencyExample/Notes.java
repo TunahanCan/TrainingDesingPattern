@@ -10,6 +10,4 @@ public class Notes {
      * Responsibility tasarım şablonu kullanılabilir. Chain of Responsibility ile kullanıcı ve servis sunucu
      * nesneler birbirlerini tanımak zorunda değildirler.
      */
-
-
 }

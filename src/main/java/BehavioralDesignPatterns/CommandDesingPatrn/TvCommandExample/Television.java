@@ -1,7 +1,5 @@
 package BehavioralDesignPatterns.CommandDesingPatrn.TvCommandExample;
 
-import java.util.List;
-
 public class Television {
 
     public void openTv() {
@@ -14,7 +12,7 @@ public class Television {
 
     public void nextChannel() {
         System.out.println("next Channel");
-        List
+
     }
 
 }
